@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-transform: capitalize;
+}
+body{
+    font-size: 20px;
+    background: #111;
+}
+.container {
+    width: 1170px;;
+    margin:0 auto;
+}
+.over::before, .over::after{
+    content: "";
+    display: table;
+}
+.over::after{
+    clear: both;
+}
+header{
+    background: #999;
+    padding: 30px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+ img{
+     float:  left;
+     border-radius:50%;
+     margin-right: 50px;
+ }
+ .name{
+     float: left;
+ }
+ .name h1{
+     font-size: 50px;
+     font-weight: 900;
+ }
+ .name h3{
+     font-size: 30px;
+     font-weight: 600;
+ }
+ .right li{
+     text-transform: capitalize;
+ }
+
+
+
+
+
+
+
+
+ /* main content start*/
+ .main-content{
+    background: #eee;
+    padding: 20px 0;
+}
+ .blog{
+     border-bottom:1px solid #000;
+     margin: 20px 50px;
+     padding-bottom:30px;
+ }
+ .blog > h2{
+     font-style: italic;
+     float: left;
+     width:20%;
+
+ }
+ .blogs{
+     width: 75%;
+     float: left;
+     margin-left: 50px;
+ }
+ .right{
+     float: right;
+ }
+
+
+ 
